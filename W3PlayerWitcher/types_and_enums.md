@@ -1,6 +1,7 @@
 
 #types and enums at W3PlayerWitcher class
 
+```
 enum ESignType
 {
 	ST_Aard,
@@ -11,8 +12,10 @@ enum ESignType
 	ST_None
 }
 
+```
 CActor базовый класс для классов игроков.
 
+```
 enum EEffectType
 {
 	EET_Undefined,		
@@ -205,6 +208,9 @@ EET_EffectTypesSize,
 EET_ForceEnumTo16Bit = 10000
 }
 
+```
+
+```
 enum ESkill
 {
 	S_SUndefined,
@@ -324,6 +330,9 @@ S_UNUSED2,
 	S_Perk_MAX
 }
 
+```
+
+```
 enum ESkillPath
 {
 	ESP_NotSet,
@@ -333,13 +342,21 @@ enum ESkillPath
 	ESP_Perks
 }
 
+```
+
+```
 enum ESpendablePointType
 {
 	ESkillPoint,
 	EExperiencePoint
 }
 
+```
+
+```
 struct SItemUniqueId { }
+
+```
 
 
 
