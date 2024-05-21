@@ -1,2 +1,5 @@
 # WitcherScriptDoc
 Some witcher script documentation
+I was upset that when I wanted to make my own mod for the combat system of The Witcher 3 Wild Hunt, I was faced with the fact that there were very few accessible and adequate tools. But most of all I was upset that there was very little documentation on Witcher Script in the RU segment. In English there was a little more of it, but very little. I decided to accumulate useful class methods that affect the combat system in one place. I plan to expand these documents in the future.So far I have collected some useful classes and data types in my opinion.
+
+Я был расстроен тем, что когда хотел сделать свой мод для боевой системы ведьмака 3 дикая охота, столкнулся с тем, что очень мало доступных и адекватных инструментов. Но больше всего я был расстроен тем, что в ру сегменте документации крайне мало по Witcher Script. В английском её было чуть больше, но очень мало. Я решил аккумулировать в одном месте полезные методы классов, влияющие на боевую систему. В будущем планирую расширять эти документы. Пока что я собрал некоторые полезные, на мой взгляд, классы и типы данных.
