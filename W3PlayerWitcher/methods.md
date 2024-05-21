@@ -1,5 +1,7 @@
 #Methods of W3PlayerWitcher
 
+Публичные методы, которые вызываются на экземпляре объекта класса.
+
 |Сигнатура метода|Описание|
 | :-: | :-: |
 |Сигнатура метода|Описание|
@@ -72,5 +74,14 @@
 |OnSignCastPerformed(signType: ESignType, isAlternate: bool)|Обрабатывает действия после произнесения знака, такие как применение эффектов и отображение визуальных эффектов.|
 |CanMeditateHere(): bool|Проверяет, можно ли медитировать в текущем месте.|
 |Meditate(): bool|Инициирует медитацию, если выполнены условия.|
-|MeditationRestoring(simulatedTime: float)|Обрабатывает восстановление действий во время медитации.|
+|MeditationClockStart(m: CR4MeditationClockMenu)|Начинает счетчик медитации и обновляет дисплей метидации.|
+|MeditationClockStop()|Останавливает счетчик медитации|
+|UpdateClockTime(dt: float, id: int)|Обновляет время тиков медитации|
+|SetWaitTargetHour(t: int)|Устанавливает целевой час медитации|
 
+GetWaitTargetHour(): int	Retrieves the target hour for waiting during meditation.
+MeditationForceAbort(forceCloseUI: bool)	Forces aborting meditation and handles related actions.
+Runeword10Triggerred()	Handles actions triggered by Runeword 10.
+Runeword12Triggerred()	Handles actions triggered by Runeword 12.
+ManageSleeping()	Manages actions related to sleeping.
+IsSignBlocked(signType: ESignType): bool	Checks if a sign is blocked based on the sign type.
